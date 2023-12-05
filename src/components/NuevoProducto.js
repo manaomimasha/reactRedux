@@ -26,7 +26,7 @@ export default function NuevoProducto() {
 
         // // validar formulario
         if(nombre.trim() === '' || precio <= 0) {
-
+                return
         //     const alerta = {
         //         msg: 'Ambos campos son obligatorios',
         //         classes: 'alert alert-danger text-center text-uppercase p3'
@@ -47,7 +47,7 @@ export default function NuevoProducto() {
 
         // // redireccionar
         // history.push('/');
-        agregarProducto()
+        // agregarProducto()
     }
 
 //   console.log("El componente Productos se está renderizando.");

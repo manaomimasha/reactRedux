@@ -1,5 +1,3 @@
-// C:\Users\Usuario\Desktop\react-redux>json-server db.json --port 5000
-
 {
   "productos": [
     {
@@ -26,6 +24,61 @@
       "nombre": "Jugo de Fresa",
       "precio": "200",
       "id": 5
+    },
+    {
+      "nombre": "hola",
+      "precio": 20,
+      "id": 6
+    },
+    {
+      "nombre": "hola",
+      "precio": 20,
+      "id": 7
+    },
+    {
+      "nombre": "hola",
+      "precio": 20,
+      "id": 8
+    },
+    {
+      "nombre": "hola",
+      "precio": 20,
+      "id": 9
+    },
+    {
+      "nombre": "uggu",
+      "precio": 555,
+      "id": 10
+    },
+    {
+      "nombre": "uggu",
+      "precio": 555,
+      "id": 11
+    },
+    {
+      "nombre": "uggu",
+      "precio": 555,
+      "id": 12
+    },
+    {
+      "nombre": "ahoaho",
+      "precio": 555,
+      "id": 13
+    },
+    {
+      "nombre": "ahoaho",
+      "precio": 555,
+      "id": 14
+    },
+    {
+      "nombre": "ahoaho",
+      "precio": 555,
+      "id": 15
+    },
+    {
+      "nombre": "ahoaho",
+      "precio": 555,
+      "id": 16
     }
   ]
 }
