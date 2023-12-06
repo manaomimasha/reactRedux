@@ -24,7 +24,7 @@ const initialState = {
 
 export default function productosReducer(state = initialState, action) {
     switch(action.type) {
-        // case COMENZAR_DESCARGA_PRODUCTOS:
+        case COMENZAR_DESCARGA_PRODUCTOS:
         case AGREGAR_PRODUCTO: 
             return {
                 ...state,

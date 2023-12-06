@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 
@@ -45,12 +45,12 @@ const Producto = ({producto}) => {
             <td>{nombre}</td>
             <td><span className="font-weight-bold"> $ {precio} </span></td>
             <td className="acciones">
-                <button 
+                <Link 
                     type="button"
                     // onClick={ () => redireccionarEdicion(producto) }
                     className="btn btn-primary mr-2">
                     Editar
-                </button>
+                </Link>
                 <button 
                     type="button"
                     className="btn btn-danger"

@@ -79,6 +79,41 @@
       "nombre": "ahoaho",
       "precio": 555,
       "id": 16
+    },
+    {
+      "nombre": "manzanas",
+      "precio": 2000,
+      "id": 17
+    },
+    {
+      "nombre": "manzanas",
+      "precio": 2000,
+      "id": 18
+    },
+    {
+      "nombre": "comida",
+      "precio": 500,
+      "id": 19
+    },
+    {
+      "nombre": "comida",
+      "precio": 500,
+      "id": 20
+    },
+    {
+      "nombre": "comida",
+      "precio": 5,
+      "id": 21
+    },
+    {
+      "nombre": "comida",
+      "precio": 5,
+      "id": 22
+    },
+    {
+      "nombre": "comida",
+      "precio": 444,
+      "id": 23
     }
   ]
 }
