@@ -45,9 +45,10 @@ const Producto = ({producto}) => {
             <td>{nombre}</td>
             <td><span className="font-weight-bold"> $ {precio} </span></td>
             <td className="acciones">
-                <Link 
+                <Link   to ={`/productos/editar/${producto.id}`}
                     type="button"
                     // onClick={ () => redireccionarEdicion(producto) }
+                  
                     className="btn btn-primary mr-2">
                     Editar
                 </Link>
